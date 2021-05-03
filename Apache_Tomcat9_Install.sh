@@ -75,7 +75,7 @@ sudo systemctl daemon-reload
 echo "Start the Tomcat service!..."
 sudo systemctl start tomcat
 echo "Checking Server tomact!.."
-sudo systemctl status tomcat -q
+sudo systemctl status tomcat --no-pager
 #Adjust the Firewall and Test the Tomcat Server
 echo "Allow Tomcat uses port 8080 !..."
 sudo ufw allow 8080
