@@ -17,7 +17,7 @@ echo "Make the tomcat user a memeber of tomcat group.."
 echo "..with a home directory of /opt/tomcat.."
 echo "..and with a shell of /bin/false!..."
 sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
-echo "Now! Tomcat is user is setup!"
+echo "Now! Tomcat user is setup!"
 #Install Tomcat
 echo "change directory /tmp"
 cd /tmp
