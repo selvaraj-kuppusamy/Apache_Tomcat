@@ -83,3 +83,4 @@ echo "Testing the Tomcat server!.."
 curl http://127.0.0.1:8080
 #or curl http://localhost:8080
 echo "Apache Tomcat server is successfully Installed!"
+
