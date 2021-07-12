@@ -1,5 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 
+#Need to run this script as a root
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root (with sudo command)"
+  exit
+fi
 #upgrade the system
 echo "Your! system is upgrading!..."
 sudo apt upgrade -y
